@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField] SineWave sine;
+
     public float chaseDist = 16.0f;
     private Vector3 temp;
 

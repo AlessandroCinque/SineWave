@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 public class StateManager : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-   
+    public GameObject pauseButton;
+    public GameObject startButton;
 
     void Update()
     {
@@ -13,7 +14,17 @@ public class StateManager : MonoBehaviour
         {
             Quit();
         }
-      
+        if (!GameIsPaused)
+        {
+            pauseButton.SetActive(true);
+            startButton.SetActive(false);
+        }
+        else 
+        {
+            pauseButton.SetActive(false);
+            startButton.SetActive(true);
+           
+        }
     }
   
     public void Resume()

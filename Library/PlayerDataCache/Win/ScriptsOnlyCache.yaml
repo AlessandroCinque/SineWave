@@ -326,7 +326,7 @@ ScriptsOnlyBuild:
     className: SineWave
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 6eeee6741cfff95999f00862cfced594
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StateManager
@@ -434,7 +434,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 8cd5ca0e5d9b37cc007de25b0dfef201
+      Hash: aece4e9a34809f26baabaac5649e3c5f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChucnkSpawner
