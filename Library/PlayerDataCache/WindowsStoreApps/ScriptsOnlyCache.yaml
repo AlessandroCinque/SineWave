@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     - Timer
     - Values
     Unity.Rider.Editor.dll:
-    - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
@@ -592,4 +591,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Unity Games/SineWave/build
+  playerPath: D:/Unity Games/SineWave/Build
